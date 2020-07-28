@@ -1,0 +1,16 @@
+Ciao Luca ecco il testo dell'esercizio:
+
+Realizzare, nel modo che si ritiene più opportuno, una piccola Web Application che permetta di memorizzare e visualizzare credenziali di accesso di vari progetti (per semplificare ed unificare il modo in cui un team accede a tali credenziali).
+
+1)La web application avrà una pagina di Login a cui si accede con Email e Password del membro del team. Inserire manualmente un paio di utenti di prova in database (non è necessario creare una sezione "Registrazione Nuovo Utente").
+
+Dopo aver effettuato il login, dovrà comparire una nuova pagina nella quale:
+
+2)- C'è un pulsante per inserire nuove "crendeziali" specificando Progetto, Servizio a cui si sta accedendo, Username e Password (ad esempio => PROGETTO: Mondadori - SERVIZIO: Gmail - USERNAME: mondadori@gmail.com - PASSWORD: Segreto123)La voce "Progetto" potrà essere una di quelle precedentemente inserite (quindi, ad esempio, se inserisco i primi caratteri di un "progetto" in precedenza inserito, il sistema dovrà suggerirlo) oppure del tutto nuova.
+
+3)- C'è una tabella che mostra le credenziali già inserite.
+In questa tabella Le Password dovranno essere mostrate sotto forma di asterischi, un asterisco per ogni carattere della password. Ogni riga della tabella avrà un apposito pulsante "Mostra Password" che andrà a pescare la password dal Database e la sostituirà agli asterischi. Prima del click di questo pulsante, il Client non dovrà possedere la password.
+
+4)Infine, al click di "Mostra Password", il Server dovrà memorizzare nel Database le informazioni della richiesta, quindi: l'utente che ha fatto richiesta, la credenziale che è stata richiesta, il timestamp in cui è stata fatta la richiesta
+
+Come detto, la Web Application potrà essere creata a piacere, utilizzando qualsiasi tipo di framework o libreria di supporto. Gli unici obblighi sono l'utilizzo di PHP come linguaggio Server-Side e Database Relazionali MySQL.
